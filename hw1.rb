@@ -11,7 +11,7 @@ end
 
 def combine_name(first_name, last_name)
   # Q3 CODE HERE
-  return a+b
+  return a+" "+b
 end
 
 def blockin_time(a)
