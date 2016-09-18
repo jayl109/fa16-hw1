@@ -1,7 +1,7 @@
 class Foobar
 
   def self.baz(a)
-    set=a.map{|a| Integer(a)+1}.delete_if{|a|a%2==0}.delete_if{|i|i>=10}.uniq
+    set=a.map{|a| Integer(a)+2}.delete_if{|a|a%2==0}.delete_if{|i|i>=10}.uniq
 	
 	  sum = 0
 	  set.each { |a| sum+=a }
