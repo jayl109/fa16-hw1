@@ -5,7 +5,7 @@ end
 
 def sort_array_plus_one(a)
   
-  return a.map! { |a| a+1 }
+  return a.sort.map! { |a| a+1 }
   
 end
 
